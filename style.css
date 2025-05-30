@@ -1,0 +1,73 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.kanban-board {
+    display: flex;
+    gap: 20px; /* Space between columns */
+}
+
+.column {
+    background-color: #e0e0e0;
+    padding: 15px;
+    border-radius: 5px;
+    width: 300px; /* Fixed width for columns */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.column h2 {
+    margin-top: 0;
+    font-size: 1.2em;
+    color: #333;
+    text-align: center;
+}
+
+.tasks {
+    min-height: 100px; /* Minimum height for the tasks area */
+    background-color: #f0f0f0; /* Slightly different background for task area */
+    border-radius: 3px;
+    padding: 10px;
+}
+
+.task-card {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.05);
+    cursor: grab; /* Indicates draggable item */
+}
+
+.task-card:last-child {
+    margin-bottom: 0;
+}
+
+.add-task {
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%; /* Make button full width of column */
+    margin-top: 10px;
+}
+
+.add-task:hover {
+    background-color: #4cae4c;
+}
+
+.drag-over {
+    border: 2px dashed #000; /* Example style for visual feedback */
+    background-color: #fdfdfd; /* Lighter background when dragging over */
+}
