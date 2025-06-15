@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  /* -webkit-font-smoothing: antialiased; /* Removed */
+  /* -moz-osx-font-smoothing: grayscale; /* Removed */
+}
+
+/* code { /* Removed */
+/*   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', /* Removed */
+/*     monospace; /* Removed */
+/* } /* Removed */
