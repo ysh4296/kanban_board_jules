@@ -1,5 +1,5 @@
 import React from 'react';
-import { render, screen, fireEvent } from '@testing-library/react';
+import { render, screen } from '@testing-library/react'; // Removed fireEvent
 import userEvent from '@testing-library/user-event';
 import Board from './Board';
 // import Column from './Column'; // Might not be needed if testing through Board
